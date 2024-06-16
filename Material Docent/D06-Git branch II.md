@@ -1,6 +1,6 @@
 # Git Branch II
 Ara que ja sabem crear i navegar entre branques, anem a utilitzar el seu propòsit principal: els **desenvolupaments simultanis**!
-![image](Pasted-image-20240609175338.png)
+![image](img/Pasted-image-20240609175338.png)
 
 ## Convenció de noms per les branques
 Per a anomenar les branques seguirem la convenció següent:
@@ -151,57 +151,57 @@ main
 
 ### Creem la nova branca feature/nova-funcionalitat
 `git switch -c feature/nova-funcionalitat`
-![image](Pasted-image-20240610093038.png)
+![image](img/Pasted-image-20240610093038.png)
 Crea la nova branca i ens mou cap a ella directament ja que usem el paràmentre `-c` de `git switch`
 ### Comprovem la nova branca
 `git branch`
-![image](Pasted-image-20240610093212.png)
+![image](img/Pasted-image-20240610093212.png)
 
 >[!TIP]
 >A la consola del terminal de Git, podem observar sobre quina branca estem actualment (de color blau). En l'exemple <span style="color: royalblue;">(feature/nova-funcionalitat)</span>.
-![image](Pasted-image-20240610110622.png)
+![image](img/Pasted-image-20240610110622.png)
 ### Creem la branca sub-funcionalitat-1
 `git switch -c sub-funcionalitat-1`
-![image](Pasted-image-20240610093250.png)
+![image](img/Pasted-image-20240610093250.png)
 ### Comprovem estat del versionat dins de la nova branca `sub-funcionalitat-1`:
 `git status -s`
-![image](Pasted-image-20240610102912.png)
+![image](img/Pasted-image-20240610102912.png)
 ### Fem commit del fitxer missatge.txt
 `git add missatge.txt`
-![image](Pasted-image-20240610102957.png)
+![image](img/Pasted-image-20240610102957.png)
 
 >[!WARNING]
 >El missatge `warning: in the working copy of 'missatge.txt', LF will be replaced by CRLF the next time Git touches it` és degut a que aquestes captures de pantalla s'han generat en un entorn Windows i els caràcters imprimibles que s'usen per determinar el final de línia són: `CR` (Carriage Return, ASCII 13) i `LF` (Line Feed, ASCII 10); també els podem veure representats com a `\r` i `\n` respectivament. 
 >En canvi els sistemes Unix-like només usen `LF` per a especificar el final de línia en els fitxers de text pla. Git per defecte usa la sintaxi de Unix, però en entorns Windows, en funció de quines opcions de configuració haguem escollit al instal·lar Git, pot usar la convenció de Windows.
 
 `git commit -m "chore: add missatge.txt`
-![image](Pasted-image-20240610103023.png)
+![image](img/Pasted-image-20240610103023.png)
 
 ### Comprovem històric de versionat de la sub-branca
 `git log --oneline`
-![image](Pasted-image-20240610104237.png)
+![image](img/Pasted-image-20240610104237.png)
 
 ### Comprovem històric de versionat de la branca superior
 Actualment estem a la branca `feature/nova-funcionalitat/sub-funcionalitat-1`.
 
 1. Comprovem branques existents dins del repositori `git branch`:
-	![image](Pasted-image-20240610104342.png)
+	![image](img/Pasted-image-20240610104342.png)
 2. Canviem de branca `git switch feature/nova-funcionalitat`:
-	![image](Pasted-image-20240610104414.png)
+	![image](img/Pasted-image-20240610104414.png)
 3. Comprovem històric de versionat `git log --oneline:
-	![image](Pasted-image-20240610104655.png)
+	![image](img/Pasted-image-20240610104655.png)
 
 Tal i com podem veure, la branca `feature/nova-funcionalitat/sub-funcionalitat-1` va un commit (5338dbd) per davant de la branca `feature/nova-funcionalitat` que va pel commit (98900f3).
 
 ### Fusionem les dues sub-branques
 Estant apuntant a la branca `feature/nova-funcionalitat`, executarem `git merge sub-funcionalitat-1`.
-![image](Pasted-image-20240610105105.png)
+![image](img/Pasted-image-20240610105105.png)
 Com que no hi havia cap conflicte de contingut a cap fitxer entre les versions de codi confirmades de les dues branques, hem pogut fer el fusionat exitosament.
 
 ### Comprovem l'històric de versions després del fusionat
 Ara esperaríem que l'històric de vesions de les dues sub-branques sigui igual.
 Estant encara dins de la branca `feature/nova-funcionalitat`, usan `git log --oneline` podem veure:
-![image](Pasted-image-20240610105504.png)
+![image](img/Pasted-image-20240610105504.png)
 >[!TIP]
 >El resultat que ens ofereix la comanda `git log --oneline`, ens aporta l'històric dels commits del versionat del codi de més nou a més antic sent l'últim commit el primer que es va fer (a l'exemple: 9c5c69c).
 >Però també ens informa de més coses:
