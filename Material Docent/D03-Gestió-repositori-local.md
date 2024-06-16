@@ -90,7 +90,7 @@ Des del terminal veiem això:
 ![](img/Pasted-image-20240608203954.png)
 
 ### El repositori es mostra així
-![](GitRepoStatus.png)
+![](img/GitRepoStatus.png)
 
 >[!TIP]
 >Per a entendre millor el life cycle de Git, podem entendre el *working directory* com el que nosaltres veiem dins de la carpeta de nostre ordinador on hem desplegat el repositori local.
