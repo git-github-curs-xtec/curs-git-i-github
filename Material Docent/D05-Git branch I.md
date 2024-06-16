@@ -25,6 +25,7 @@ Podem trobar repositoris que usen el nom `master` enlloc de `main`, però recent
 >git branch
 
 Això ens mostrarà un resultat com el següent:
+
 ![](img/Pasted-image-20240609171607.png)
 
 ## Crear nova branca
@@ -71,12 +72,15 @@ Aquí hem creat una nova branca sobre el contingut actual de master.
 Ho podem comprovar observant l'històric de versions de cadascuna de les branques (`main` i `nova-branca`).
 
 Aquí podem veure l'**estatus** i l'**històric** de versions de la branca `main`:
+
 ![](img/Pasted-image-20240609172705.png)
 
 Aquí podem veure l'**estatus** i l'**històric** de versions de la branca `nova-branca`:
+
 ![](img/Pasted-image-20240609172740.png)Tal i com podem veure en la captura anterior, hem usat `git switch nova-branca` per tal de moure'ns de la `main` a la `nova-branca`.
 
 A més a més, ara que tenim dues branques, si usem la comanda `git branch` podrem veure les dues branques i sobre quina estem apuntant actualment:
+
 ![](img/Pasted-image-20240609173006.png)
 
 ## Canviar el nom d'una branca existent
