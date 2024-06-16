@@ -13,7 +13,7 @@ D'aquesta manera ens assegurem que l'eliminació del fitxer es fa de forma segur
 En el cas de que tinguem un arxiu amb modificacions actives al *working directory* i ens volguem descartar i tornar a recuperar el fitxer a l'última versió confirmada, podem usar `git checkout nom-fitxer`
 
 **Exemple**:
-![[Pasted image 20240614124445.png]]
+![](img/Pasted-image-20240614124445.png)
 
 ## Treure un arxiu o carpeta de la staging area
 >[!TIP]
@@ -28,7 +28,7 @@ En el cas de que tinguem un arxiu amb modificacions actives al *working director
 >```
 
 **Exemple**
-![[Pasted image 20240606192855.png]]
+![](img/Pasted-image-20240606192855.png)
 
 >[!TIP]
 >Tot i que en alguna documentació ho desaconsella, també podem usar el punt '.' per a desfer tots els canvis de la *staging area*:
@@ -42,10 +42,10 @@ En el cas de que tinguem un arxiu amb modificacions actives al *working director
 >git checkout codi
 
 **Exemple:**
-![[Pasted image 20240606194312.png]]
+![](img/Pasted-image-20240606194312.png)
 
 Ara Git ens mostra l'estat del repositori segons un commit anterior per a navegar pel seu codi i els seus fitxers com si estiguèssin en un commit previ.
-![[Pasted image 20240606194554.png]]
+![](img/Pasted-image-20240606194554.png)
 
 Fixem-nos que el text blau *(main)* ara hi apareix el codi del commit del qual estem veient l'estat del repositori.
 
@@ -56,7 +56,7 @@ Fixem-nos que el text blau *(main)* ara hi apareix el codi del commit del qual e
 >```
  
  **Exemple**
- ![[Pasted image 20240606194744.png]]
+ ![](img/Pasted-image-20240606194744.png)
 
 ## Tornar el repo a un punt anterior
 >[!TIP]
@@ -65,7 +65,7 @@ Fixem-nos que el text blau *(main)* ara hi apareix el codi del commit del qual e
 >git reset --hard codi
 
 **Exemple:**
-![[Pasted image 20240606193359.png]]
+![](img/Pasted-image-20240606193359.png)
 
 L'arxiu *adeu.txt* s'ha eliminat del repositori i també físicament del directori. Aquest arxiu ara ja no es pot recuperar.
 
@@ -87,10 +87,10 @@ Hi hem fet les següents modificacions de contingut dins del working directory:
 10. Hem fet un **git add contingut.md**
 
 Des del terminal veiem això:
-![[Pasted image 20240608203954.png]]
+![](img/Pasted-image-20240608203954.png)
 
 ### El repositori es mostra així
-![[GitRepoStatus.png]]
+![[GitRepoStatus.png)
 
 >[!TIP]
 >Per a entendre millor el life cycle de Git, podem entendre el *working directory* com el que nosaltres veiem dins de la carpeta de nostre ordinador on hem desplegat el repositori local.

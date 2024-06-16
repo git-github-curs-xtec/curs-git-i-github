@@ -3,7 +3,7 @@ Git no deixa de ser un programa que podem instal·lar al nostre ordinador local 
 
 Existeix la versió de Git per a múltiples Sistemes Operatius: Windows, Mac, Linux, etc. Podem descarregar la versió que necessitem aquí: https://git-scm.com/downloads
 
-![[Pasted image 20240529192702.png]]
+![](img/Pasted-image-20240529192702.png)
 
 El procés d'instal·lació és senzill.
 # Iniciar repositori de Git
@@ -28,7 +28,7 @@ Un cop dins del terminal, navegarem fins a dins de la carpeta on volem iniciar e
 > ```
 
 **Exemple:**
-![[Pasted image 20240606184040.png]]
+![](img/Pasted-image-20240606184040.png)
 
 Aquesta comanda `git init` crearà un conjunt de fitxers i carpetes ocultes que usarà per a fer el control del versionat del contingut de la carpeta i només l'usarem una vegada.
 
@@ -38,7 +38,7 @@ Git crea unes àrees de treball:
 3. Àrea confirmada del repositori local: *commit area*
 
 Aquesta feina no es fa per art de màgia, si no que Git ho guardarà tot dins de la carpeta oculta `.git` que crea al iniciar el repositori:
-![[Pasted image 20240606184220.png]]
+![](img/Pasted-image-20240606184220.png)
 ## Working area
 El *working area* o *working directory* no és més que tot el contingut d'arxius i subcarpetes que tenim a dins de la carpeta del repositori.
 
@@ -60,7 +60,7 @@ Per tal de que es faci seguiment dels canvis d'un arxiu o carpeta, els hem de pa
 Aquesta acció no mou el fitxer físicament de lloc dins del disc dur ni el perdrem de vista. A nivell d'usuari de l'ordinador no percebrem cap canvi amb aquest arxiu.
 
 **Exemple:**
-![[Pasted image 20240606184654.png]]
+![](img/Pasted-image-20240606184654.png)
 ## Staging area
 Aquesta àrea està destinada a contenir arxius i carpetes etiquetades per a fer-ne seguiment del control de versions.
 
@@ -82,8 +82,8 @@ Se li diu zona de proves ja que serveix de pas previ a fer una *captura* de l'es
 >```
 
 **Exemple:**
-![[Pasted image 20240606184859.png]]
-![[Pasted image 20240606184916.png]]
+![](img/Pasted-image-20240606184859.png)
+![](img/Pasted-image-20240606184916.png)
 
 ## Repositori local
 La *commit area* o repositori local conté la **versió confirmada** més actual dels arxius i carpetes del **repositori local** dels quals se n'està fent control de versions així com tot l'històric dels canvis que han sofert.
@@ -110,7 +110,7 @@ Cada vegada que fem un `git commit` es crearà una versió nova del repositori a
 # Git lifecycle workflow diagram
 A continuació podem veure un (dels milions) de diagrames del cicle de vida o fluxe de treball del Git que podem trobar per World Wide Web.
 
-![[Pasted image 20240606132503.png]]
+![](img/Pasted-image-20240606132503.png)
 
 Podem veure representades les següents fases o etapes d'esquerra a dreta:
 1. **Directori de treball**: On editarem els nostres fitxers de codi amb seguretat sense por de *trencar res*

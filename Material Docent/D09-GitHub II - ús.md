@@ -3,7 +3,7 @@ Un cop tenim el nostre perfil de GitHub crear, customitzat i el nostre personal 
 
 ## Final del cicle de vida de Git
 Amb la plataforma GitHub, afegim l'etapa del ***repositori remot*** al final del cicle de vida de Git:
-![[Pasted image 20240616164048.png]]
+![](img/Pasted-image-20240616164048.png)
 
 >[!TIP]
 >La captura del cicle de vida ha estat extreta de la web [**ndpsoftware**](https://ndpsoftware.com/git-cheatsheet.html#loc=remote_repo;) on tenim un inventari de les comandes més importants de Git amb la seva pertinent explicació disposades sobre les etapes del flux de treball de Git.
@@ -21,22 +21,22 @@ Començarem per a descarregar un repositori remot hostejat a GitHub i importar-l
 ### Exemple:
 1. Naveguem pel portal de GitHub fins a trobar el repositori *públic* que volem descarregar, aleshores sel·leccionem **Code/Copy url to clipboard**:
 
-![[Pasted image 20240616164813.png]]
+![](img/Pasted-image-20240616164813.png)
 
 2. En aquest cas, hem escollit el repositori que podem trobar aquí: [**https://github.com/raimonizard/test-git.git**](https://github.com/raimonizard/test-git.git)
 
 3. Obrim un terminal del SO i naveguem fins a la carpeta de destí on volem descarregar el repositori:
-	![[Pasted image 20240616165233.png]]
+	![](img/Pasted-image-20240616165233.png)
 
 	Ara ja tenim el contingut del repositori remot al repositori local:
-	![[Pasted image 20240616165419.png]]
+	![](img/Pasted-image-20240616165419.png)
 
 	Podem comprovar l'**històric de commits** del remot vs el del local:
 	**Remot:**
-	![[Pasted image 20240616165643.png]]
+	![](img/Pasted-image-20240616165643.png)
 
 	**Local:**
-	![[Pasted image 20240616165556.png]]
+	![](img/Pasted-image-20240616165556.png)
 
 >[!IMPORTANT]
 >A l'històric de commits del repo local hi observem la següent informació:
@@ -52,16 +52,34 @@ Ara ja tenim un repositori remot clonat com a repositori local al nostre ordinad
 És hora de fer-hi algun canvi en local i pujar-ho de tornada a GitHub.
 
 1. Modifiquem l'arxiu **hola.txt**:
-	![[Pasted image 20240616170904.png]]
+	![](img/Pasted-image-20240616170904.png)
 
 2. Afegim l'arxiu a la zona stating: `git add hola.txt`
-	![[Pasted image 20240616170953.png]]
+	![](img/Pasted-image-20240616170953.png)
 
 3. Confirmem el canvi i observem l'històric de commits:
-	![[Pasted image 20240616171027.png]]
+	![](img/Pasted-image-20240616171027.png)
 
 >[!IMPORTANT]
 >Ara l'històric de canvis ens indica que el repositori local va un commit per davant de la versió del repositori remot.
 	
 
 4. Pugem els canvis al repositori remot: `git push`
+
+
+## Crear un repo remot nou
+Des de la plataforma GitHub podem crear espais de repositoris remots nous i aleshores linkar-los amb un repositori local o afegir-hi contingut manualment des del web.
+
+![](img/Pasted%20image%2020240616173251.png)
+
+>[!IMPORTANT]
+>Escollirem un **nom** pel nostre repositori (recomanat usar noms en minúsucles i sense espais en blanc)
+>És recomanat afegir-hi una **descripció**.
+>Podem escollir si fer-lo ***privat*** (només nosaltes el podrem veure); o ***públic*** (estarà disponible al nostre perfil per a tota la comunitat de GitHub)
+>Afegir-hi un **README.md** és bona pràctica però hem de saber que aleshores ja ens crea un primer commit des del remot. No és un problema si sabem què està passant, però ens pot portar mal de caps per sincronitzar-ho amb un repositori local si aquest ja conté commits.
+>La **llicència** és opcional, però sovint s'usa la llicència *MIT* o *GNU* per denotar que el codi que conté és de lliure ús i distribució. Notar que també ens inicia l'històric de commits igual que al crear el README.md ja que, tant un com l'altre, ens afegeix contingut al repositori remot.
+
+Un cop creat el repositori remot, si hem escollit NO crear README.md ni afegir-hi llicència *(ho podem fer després)*, veurem una pàgina com aquesta:
+![](img/Pasted%20image%2020240616173906.png)
+Ara podem copiar la URL del repositori remot que ens ha generat; en aquest cas: https://github.com/git-github-curs-xtec/curs-git-i-github.git i afegir-la com a repositori remot en el nostre repositori local:
+

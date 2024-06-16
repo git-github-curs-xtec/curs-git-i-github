@@ -11,7 +11,7 @@ Una de les aportacions més importants de la tecnologia Git és el conceptes de 
 >Això **permet treballar en equip** permetent **múltiples desenvolupaments simultanis** de la versió actual del codi del repositori.
 >Si un cop acabat el codi d'una branca, es vol **integrar a la branca principal** del projecte des del quan es va bifurcar, es pot fusionar usant `git merge` per tal d'incorporar les noves funcionalitats dins del projecte final.
 
-![[Pasted image 20240609175305.png]]
+![](img/Pasted-image-20240609175305.png)
 
 El nom de la **branca principal** que es crea per defecte al iniciar un repositori de Git és `main`.
 
@@ -25,7 +25,7 @@ Podem trobar repositoris que usen el nom `master` enlloc de `main`, però recent
 >git branch
 
 Això ens mostrarà un resultat com el següent:
-![[Pasted image 20240609171607.png]]
+![](img/Pasted-image-20240609171607.png)
 
 ## Crear nova branca
 Com hem vist, ens pot interessar crear una nova branca a partir d'una branca existent.
@@ -65,17 +65,30 @@ També podem anar un pas més enllà i crear una branca i al mateix temps apunta
 
 ## Exemple complet:
 
-![[Pasted image 20240609172055.png]]
+![](img/Pasted-image-20240609172055.png)
 Aquí hem creat una nova branca sobre el contingut actual de master.
 
 Ho podem comprovar observant l'històric de versions de cadascuna de les branques (`main` i `nova-branca`).
 
 Aquí podem veure l'**estatus** i l'**històric** de versions de la branca `main`:
-![[Pasted image 20240609172705.png]]
+![](img/Pasted-image-20240609172705.png)
 
 Aquí podem veure l'**estatus** i l'**històric** de versions de la branca `nova-branca`:
-![[Pasted image 20240609172740.png]]Tal i com podem veure en la captura anterior, hem usat `git switch nova-branca` per tal de moure'ns de la `main` a la `nova-branca`.
+![](img/Pasted-image-20240609172740.png)Tal i com podem veure en la captura anterior, hem usat `git switch nova-branca` per tal de moure'ns de la `main` a la `nova-branca`.
 
 A més a més, ara que tenim dues branques, si usem la comanda `git branch` podrem veure les dues branques i sobre quina estem apuntant actualment:
-![[Pasted image 20240609173006.png]]
+![](img/Pasted-image-20240609173006.png)
+
+## Canviar el nom d'una branca existent
+>[!TIP]
+>Si volem canviar el nom d'una branca existent on ara estem treballant, podem usar la comanda:
+>```
+>git branch -m nom-nou
+>```
+>Si ja existia una branca amb aquest nom, podem sobre-escriure-la:
+>```
+>git branch -M nom-nou
+>```
+
+
 
