@@ -95,3 +95,12 @@ Des de la plataforma GitHub podem crear espais de repositoris remots nous i ales
 
 4. Comprovar el contingut dins del repo remot:
 	![](img/Pasted%20image%2020240616175804.png)
+
+## Fer un fork d'un repo remot
+L'acció de **fork** serveix per a crear un nou repositori remot clonant un repositori remot actual.
+
+Això ens serveix per tal d'importar el codi del repositori públic d'un altra persona i incorporar-lo en el nostre haver de repositoris remots del nostre perfil. A més a més, podrem modificar la nostra còpia del codi sense afectar al repositori remot original.
+
+L'acció de **fork** es troba disponible a través de GitHub dins de les opcions d'un repositori:
+
+![](img/Pasted%20image%2020240616191847.png)
