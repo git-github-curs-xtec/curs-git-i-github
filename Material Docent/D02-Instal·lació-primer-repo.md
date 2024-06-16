@@ -162,7 +162,7 @@ Afegidament, ens anirà bé conèixer les següents:
 ---
 # Referècies
 
->[!INFO]
+>[!TIP]
 >Finalment, podem trobar un llistat de totes les comandes principals de Git aquí:
 >https://www.git-scm.com/docs
 
