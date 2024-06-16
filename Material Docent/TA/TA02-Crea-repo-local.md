@@ -1,4 +1,4 @@
-# TA01: Crear un repositori local
+# TA02: Crear un repositori local
 Per a aquesta primera tasca, crearem un repositori local en el nostre ordinador.
 Crearem una carpeta que usarem com a repositori local al llarg de vàries activitats, per tant, no l'esborreu un cop completada (si no, l'haureu de tornar a fer).
 
@@ -16,6 +16,7 @@ Crearem una carpeta que usarem com a repositori local al llarg de vàries activi
 11. Executar la comanda `git status -s` i observar-ne els canvis
 12. Executar la comanda `git log --oneline` per comprovar si té versions confirmades
 
+---
 ## Entrega
 1. **Captura de pantalla** del terminal on es vegin les comandes de Git executades i el seu resultat.
 2. Per facilitar la feina de correcció, el nom de la captura entregada també hauria de ser *ta01-cognom-nom*

@@ -1,4 +1,4 @@
-# TA02: Git-LifeCycle
+# TA01: Git-LifeCycle
 
 ## Enunciat
 Aquesta tasca la realitzarem fora de les pantalles usant la següent plantilla:
@@ -46,6 +46,7 @@ fun main() {
 - Quin serà el contingut confirmat de l'arxiu **chatgpt.py**?
 - La carpeta **/codi-enunciat** estarà present a la zona confirmada del repositori local?
 
+---
 ## Entrega
 1. Escriu el nom dels arxius presents a cadascuna de les fases del cicle de vida del repositori en l'estat en què ha quedat. També pots dibuixar.
 2. Respon i argumenta les preguntes anteriors.
