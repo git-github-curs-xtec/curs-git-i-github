@@ -1,0 +1,5 @@
+# Do not track obsidian editor configuration folder
+.obsidian
+2023-02-08.md
+*.*xlsm
+*.*xlsx
