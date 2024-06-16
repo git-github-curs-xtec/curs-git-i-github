@@ -85,13 +85,13 @@ Des de la plataforma GitHub podem crear espais de repositoris remots nous i ales
 
 2. Ara podem copiar la URL del repositori remot que ens ha generat; en aquest cas: https://github.com/git-github-curs-xtec/curs-git-i-github.git i afegir-la com a repositori remot en el nostre repositori local `git remote add origin url-repo-remot`:
 
-	![](../Pasted%20image%2020240616175231.png)
+	![](img/Pasted%20image%2020240616175231.png)
 
 3. Establir el nom amb el qual ens referirem al repo remot `origin` i la branca que volem sincronitzar amb la branca activa del local `main` i en pujarem el contingut.
 
 	Usarem la comanda: `git push -u origin main`
 
-	![](../Pasted%20image%2020240616175722.png)
+	![](img/Pasted%20image%2020240616175722.png)
 
 4. Comprovar el contingut dins del repo remot:
-	![](../Pasted%20image%2020240616175804.png)
+	![](img/Pasted%20image%2020240616175804.png)
