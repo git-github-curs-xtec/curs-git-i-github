@@ -70,7 +70,8 @@ Ara ja tenim un repositori remot clonat com a repositori local al nostre ordinad
 ## Crear un repo remot nou
 Des de la plataforma GitHub podem crear espais de repositoris remots nous i aleshores linkar-los amb un repositori local o afegir-hi contingut manualment des del web.
 
-![](img/Pasted%20image%2020240616173251.png)
+1. Crear repo nou des del portal de GitHub:
+	![](img/Pasted%20image%2020240616173251.png)
 
 >[!IMPORTANT]
 >Escollirem un **nom** pel nostre repositori (recomanat usar noms en minúsucles i sense espais en blanc)
@@ -79,7 +80,18 @@ Des de la plataforma GitHub podem crear espais de repositoris remots nous i ales
 >Afegir-hi un **README.md** és bona pràctica però hem de saber que aleshores ja ens crea un primer commit des del remot. No és un problema si sabem què està passant, però ens pot portar mal de caps per sincronitzar-ho amb un repositori local si aquest ja conté commits.
 >La **llicència** és opcional, però sovint s'usa la llicència *MIT* o *GNU* per denotar que el codi que conté és de lliure ús i distribució. Notar que també ens inicia l'històric de commits igual que al crear el README.md ja que, tant un com l'altre, ens afegeix contingut al repositori remot.
 
-Un cop creat el repositori remot, si hem escollit NO crear README.md ni afegir-hi llicència *(ho podem fer després)*, veurem una pàgina com aquesta:
-![](img/Pasted%20image%2020240616173906.png)
-Ara podem copiar la URL del repositori remot que ens ha generat; en aquest cas: https://github.com/git-github-curs-xtec/curs-git-i-github.git i afegir-la com a repositori remot en el nostre repositori local:
+	Un cop creat el repositori remot, si hem escollit NO crear README.md ni afegir-hi llicència *(ho podem fer després)*, veurem una pàgina com aquesta:
+	![](img/Pasted%20image%2020240616173906.png)
 
+2. Ara podem copiar la URL del repositori remot que ens ha generat; en aquest cas: https://github.com/git-github-curs-xtec/curs-git-i-github.git i afegir-la com a repositori remot en el nostre repositori local `git remote add origin url-repo-remot`:
+
+	![](../Pasted%20image%2020240616175231.png)
+
+3. Establir el nom amb el qual ens referirem al repo remot `origin` i la branca que volem sincronitzar amb la branca activa del local `main` i en pujarem el contingut.
+
+	Usarem la comanda: `git push -u origin main`
+
+	![](../Pasted%20image%2020240616175722.png)
+
+4. Comprovar el contingut dins del repo remot:
+	![](../Pasted%20image%2020240616175804.png)

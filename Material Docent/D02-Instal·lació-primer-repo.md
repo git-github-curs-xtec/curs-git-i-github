@@ -82,6 +82,7 @@ Se li diu zona de proves ja que serveix de pas previ a fer una *captura* de l'es
 >```
 
 **Exemple:**
+
 ![](img/Pasted-image-20240606184859.png)
 ![](img/Pasted-image-20240606184916.png)
 
