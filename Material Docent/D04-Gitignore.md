@@ -87,6 +87,8 @@ Amb aquest fitxer `.gitignore`, Git ignorarà la carpeta `node_modules/`, qualse
 
 Això ajuda a mantenir el repositori net i centrat en el codi font i els fitxers que són realment importants per al projecte.
 
+---
+
 ### Regles avançades de `.gitignore`
 Suposem que volem excloure tot un directori del versionat de Git, però hi ha un únic fitxer d'aquell carpeta pel qual sí que en volem fer control de versions i no el volem canviar d'ubicació.
 
