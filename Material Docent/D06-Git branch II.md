@@ -140,6 +140,8 @@ Una branca funsionada és aquella a la qual se li ha fet un `git merge` a amb un
 >git branch -D nom-branca
 >```
 
+---
+
 ## Exemple treballant usant múltiples branques
 Anem a crear el següent **diagrama de branques** en el nostre repositori:
 ```bash
