@@ -66,15 +66,15 @@ Això ens farà que a la pàgina principal del nostre perfil se'ns mostri un con
 #### Exemple:
 ![](img/Pasted-image-20240616123639.png)
 
-
+---
 # Crear un token personal
 Per tal de poder **usar GitHub** com a plataforma de suport pels repositoris remots des del **terminal**, haurem de passar a través de la seva **API**.
 
 Per a poder-ho fer, necessitarem **crear un token personal** que usarem des del terminal com a **password** conjuntament **amb** el nostre nom d'**usuari de GitHub**.
 
-Anirem a la part superior dreta i sel·leccionarem <kbd>Settings</kbd>:
+Anirem a la part superior dreta i sel·leccionarem **Settings**:
 ![](img/Pasted-image-20240616124419.png)
-Anirem a **<kbd>Developer settings</kbd****>:
+Anirem a **Developer settings**:
 ![](img/Pasted-image-20240616124524.png)
 
 Generarem un **new token (classic)**:
@@ -90,11 +90,13 @@ Escollirem les següents **blocs** d'opcions de **permisos**:
 - **copilot**
 - **project**
 
+![](img/Pasted-image-20240616125145.png)
+
+
 >[!NOTE]
 >Podem escollir per quant de **temps** serà **vigent**.
 >Quan expiri, n'haurem de crear un de nou.
 
-![](img/Pasted-image-20240616125145.png)
 
 ![](img/Pasted-image-20240616125043.png)
 
@@ -105,13 +107,8 @@ Escollirem les següents **blocs** d'opcions de **permisos**:
 >**Copieu el codi** i **guardeu-lo** a algun lloc segur perquè **no es tornarà a mostrar** mai més quan sortiu d'aquesta pantalla.
 >![](img/Pasted-image-20240616125504.png)
 
-Aquest codi l'usarem quan ens demani el password des del terminal en les accions de `git push`
+Aquest **codi** l'usarem **quan ens demani el password des del terminal** en les accions de `git push`
 
 ****
 # Annex
 Com a curiositat, i per a tancar el cercle de Git -> GitHub, aquí tenim el **repositori** del **kernel de Linux** de **Linus Torvalds**: https://github.com/torvalds/linux.
-
-
-
----
-- git pull
