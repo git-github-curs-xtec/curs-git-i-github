@@ -5,16 +5,18 @@ En aquesta tasca **crearem branques** en el nostre repositori local usant el ter
 
 Per a aquesta tasca, simplement es demana fer ús de **Git Cola**, i presentar una captura de pantalla per cadascun dels següents escenaris:
 1. Identificar les diferents zones del cicle de vida de Git
-2. El gràfic de branques del nostre repo
-3. Investigar com comparar la versió actual d'un fitxer vs la versió immediatament anterior
+2. El gràfic de branques del nostre repo. Si només tenim una branca, crear-ne de noves i fer-los diversos commits per poder-les veure.
+3. Investigar com comparar la versió actual d'un fitxer vs la versió immediatament anterior.
 4. Històric de canvis (informació equivalent a la que podem aconseguir amb `git log --oneline`)
 
 ---
 ## EXTRA
 Si t'ha semblat molt fàcil, prova-ho ara **provocant un conflicte** de versions amb algun fitxer, crea sub-branques, fes merge entre les diverses branques i soluciona'l.
 
-Aporta captures de pantalla dels canvis que es generen.
+>[!WARNING]
+>Avís! Tal i com s'indica a la teoria sobre Git GUI, serà necessari anar a la configuració del Git Cola i escollir que l'editor per defecte sigui el gedit.
 
+Aporta captures de pantalla dels canvis que es generen.
 
 ---
 ## Entrega
