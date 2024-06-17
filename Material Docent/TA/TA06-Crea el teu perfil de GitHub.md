@@ -8,10 +8,13 @@ L'objectiu és que tots/es tingueu un perfil creat amb almenys un email vinculat
 **Beneficis GitHub Pro:**  
 Per obtenir tots els beneficis de **GitHub Pro Students Pack**, podem trobar el formulari  per aplicar aquí: https://education.github.com/discount_requests/application  
   
-Haureu d'aportar alguna prova conforme sou profes del vostre insti; per exsemple el carnet de profe és vàlid (https://aplicacions.ensenyament.gencat.cat/pls/apex/f?p=504:1:0:::::)  
+>[!WARNING]
+>Haureu d'aportar alguna prova conforme sou profes del vostre insti; per exsemple el carnet de profe és vàlid.
+>El podeu crear [aquí](https://aplicacions.ensenyament.gencat.cat/pls/apex/f?p=504:1:0:::::), demanar que us el signin i estampin el segell del centre *(necessitareu el codi del vostre centre)*.
   
 **Tasca a entregar:**  
-Per a aquesta tasca, penjar el **link** (url) del **vostre perfil personal**. Per exemple, el meu és aquest: https://github.com/raimonizard  
+Per a aquesta tasca, penjar el **link** (url) del **vostre perfil personal**.
+Per exemple, el meu: [https://github.com/raimonizard](https://github.com/raimonizard)
   
 >[!TIP]
 >També seria interessant que l'afegiu als comentaris d'aquesta tasca així us podeu començar a seguir entre vosaltres.
@@ -29,10 +32,11 @@ Per a personalitzar-vos el perfil, podeu crear el repositori personal i tunejar 
   
 **Per a fer-ho, hem de crear un repositori amb el mateix nom d'usuari que el vostre perfil. Aleshores es crea un repositori especial al qual, si li afegim un README.md, ens servirà de carta de presentació.**  
   
-**_**Nota: Sembla a ser que recentment s'ha actualitzat aquest tema i ara el perfil s'ha d'anomenar .github ?**_**  
+>[!WARNING]
+>Recentment, almenys per als perfils d'empresa, s'ha actualitzat aquest aspecte, i ara el repositori del perfil s'ha d'anomenar .github i no com el nom de l'usuari.
   
-Aquí teniu una **guia de format** de **Markdown**: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
-Aquí teniu un catàleg d'**emojis** per **Markdown**: https://github-emoji-picker.vercel.app/  
+- Aquí teniu una **guia de format** de **Markdown**: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- Aquí teniu un catàleg d'**emojis** per **Markdown**: [https://github-emoji-picker.vercel.app/](https://github-emoji-picker.vercel.app/)
 
 ---
 ## Entrega:  

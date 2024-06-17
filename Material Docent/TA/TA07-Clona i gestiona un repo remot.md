@@ -15,6 +15,9 @@ En aquesta tasca pujarem el nostre repo local a un repo remot i també farem l'a
 - Puja el contingut del local al remot
 - Comprova que hi és tot en el remot
 
+>[!WARNING]
+>Recorda que per a poder executar `git push` i pujar del repo local al repo remot, serà necessari crear un **token** personal des del portal de GitHub. 
+
 ---
 ## EXTRA
 Si t'ha semblat massa fàcil...:
@@ -25,4 +28,4 @@ Si t'ha semblat massa fàcil...:
 
 ---
 ## Entrega
-1. Entrega captures de pantalla del terminal i del portal de GitHub on es vegi com has fet tot el procés (ben identificades amb el teu nom. *Pex: josep-serrano-1.png*)
+1. Entrega captures de pantalla del terminal i del portal de GitHub on es vegi com has fet tot el procés per a cada tasca (ben identificades amb el teu nom. *Pex: josep-serrano-1.png*)
