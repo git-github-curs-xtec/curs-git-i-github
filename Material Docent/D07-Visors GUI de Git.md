@@ -9,16 +9,21 @@ Un dels més coneguts per Windows i MacOS és el **[GitHub Desktop](https://desk
 
 ![GitHub Desktop](https://github.blog/wp-content/uploads/2021/03/multiple-commits.gif)
 
->[!TIP] Instal·lar GitHub Desktop a Ubuntu 22.x
+>[!TIP]
+>Instal·lar GitHub Desktop a Ubuntu 22.x:
 >https://www.youtube.com/watch?v=ki0MuWceGk4&ab_channel=ZacsTech
 >
 
 Per aquest curs usarem el **[GUI Git Cola](https://git-cola.github.io/index.html)** que no és el més bonic dels existents però està disponible dins de la bossa de software estàndard dels repos d'Ubuntu i és de [llicència GNU](https://git-cola.github.io/license.html) i està desenvolupat usant la pròpia tecnologia de Git.
 
-Permet visualitzar el mateix contingut que ens dona `git status` però en format gràfic:
+Permet visualitzar el mateix contingut de l'**etapa de staging** que ens ofereix `git status` però en format gràfic:
 ![Git Cola status](https://git-cola.github.io/images/screenshot-main-linux.png)
 
-A través de l'eina Git DAG, ens permet visualitzar les branques que tenim en el nostre repositori:
+A través de l'eina Git DAG que incorpora, ens permet **visualitzar les branques** que tenim en el nostre repositori:
 ![Git DAG](https://git-cola.github.io/images/dag.png)
 
-També ens permet resoldre conflictes usant un editor de text tal com **Gedit** que ja ve integrat dins de Gnome o de **Gnome Nano** pels més *old school*
+També ens permet resoldre conflictes usant un editor de text tal com **Gedit** que ja ve integrat dins de Gnome o l'editor en línia de comandes **Gnome Nano** pels més *old school*. 
+
+>[!WARNING]
+>S'ha de configurar el Git Cola per tal de que usi gedit com a editor per a la resolució de conlictes.
+
