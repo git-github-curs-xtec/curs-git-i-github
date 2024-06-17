@@ -64,10 +64,12 @@ També podem anar un pas més enllà i crear una branca i al mateix temps apunta
 >git checkout -b nova-branca
 >```
 
+---
+
 ## Exemple complet:
 
 ![](img/Pasted-image-20240609172055.png)
-Aquí hem creat una nova branca sobre el contingut actual de master.
+Aquí hem creat una nova branca sobre el contingut actual de `main`.
 
 Ho podem comprovar observant l'històric de versions de cadascuna de les branques (`main` i `nova-branca`).
 
@@ -77,9 +79,11 @@ Aquí podem veure l'**estatus** i l'**històric** de versions de la branca `main
 
 Aquí podem veure l'**estatus** i l'**històric** de versions de la branca `nova-branca`:
 
-![](img/Pasted-image-20240609172740.png)Tal i com podem veure en la captura anterior, hem usat `git switch nova-branca` per tal de moure'ns de la `main` a la `nova-branca`.
+![](img/Pasted-image-20240609172740.png)
 
-A més a més, ara que tenim dues branques, si usem la comanda `git branch` podrem veure les dues branques i sobre quina estem apuntant actualment:
+Tal i com podem veure a la captura anterior, hem usat `git switch nova-branca` per tal de moure'ns de la `main` a la `nova-branca`.
+
+A més a més, ara que tenim dues branques, si usem la comanda `git branch` podrem veure les dues branques i sobre quina està apuntant el nostre repositori local actualment:
 
 ![](img/Pasted-image-20240609173006.png)
 
