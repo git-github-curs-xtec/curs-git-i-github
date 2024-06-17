@@ -3,6 +3,7 @@
 ## Enunciat
 En aquesta tasca **crearem branques** en el nostre repositori local usant el terminal de Git i en farem el seu fusionat.
 
+0. Si la nostra branca principal no es diu `main`, la renombrarem usant `git branch -M main`.
 1. Dins de la branca `main`, hi posarem el fitxer `hello-world.py`, l'afegirem a `stage` i el confirmarem.
 	El fitxer té el següent contingut:
 	```python
@@ -11,8 +12,8 @@ En aquesta tasca **crearem branques** en el nostre repositori local usant el ter
 	
 	hello_world()
 	```
-	>[!WARNING]
-	>Hi ha cap expert en `python` a la sala?? Aquest codi conté errors.
+>[!WARNING]
+>Hi ha cap expert en `python` a la sala?? Aquest codi conté errors.
 2. Ara, dins de la branca `main` crea una branca nova que li direm `bugfix`.
 3. Ens mourem a la branca `bugfix` i crearem una branca nova que es dirà: `fix-hello-world` a la mateixa vegada que ens hi movem a dins.
 4. Un cop dins de la branca `bugfix/fix-hello-world` solucionarem el problema del fitxer `hello-world.py` i confirmarem els seus canvis.
