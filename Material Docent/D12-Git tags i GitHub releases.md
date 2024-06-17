@@ -41,7 +41,7 @@ Les releases **proporcionen un conjunt de fitxers** que **es poden descarregar**
 7. **Fer clic a "Publish release".**
 
 ### Exemple del changelog resultant de la publicació d'una release:
-![[Pasted-image-20240614133559.png]]
+![](img/Pasted-image-20240614133559.png)
 
 
-![image](Pasted-image-20240614133559.png)
+![](img/Pasted-image-20240614133559.png)
