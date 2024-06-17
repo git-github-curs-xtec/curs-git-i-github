@@ -28,7 +28,7 @@ L'objectiu és el de crear un únic repositori remot on tots els integrants del 
 ---
 ## EXTRA
 Si t'ha semblat massa fàcil...:
-1. Crea sub-branqu es des del repositori local i puja-les al remot
+1. Crea sub-branques des del repositori local i puja-les al remot
 2. Crear arxius de diverses extensions amb més línies contingut (per exemple puja un arxiu de codi que tinguis)
 3. Fes merge entre sub-branques i publica els canvis al remot
 4. Provoca la generació d'algun conflicte entre el remot i el local i soluciona'l
