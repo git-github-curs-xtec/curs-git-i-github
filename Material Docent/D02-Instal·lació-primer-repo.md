@@ -140,7 +140,7 @@ Hi ha moltes comandes de Git, però per ara les que hem vist i necessitarem són
 
 Les credencials d'usuari es poden definir a nivell *local* i només aplicaran al repositori de la carpeta on es trobem, a nivell *global* i aplicaran a tots els repos que es creeïn amb l'usuari amb el que s'ha iniciat sessió amb l'ordinador o a nivell *system* i aplicaran a tots els repos de tots els usuaris que es creeïn dins de l'aquell ordinador.
 
->[!INFO]
+>[!NOTE]
 >Trobarem més info sobre les comandes de Git que ens permeten configurar-lo aquí:
 >https://git-scm.com/docs/git-config
 
