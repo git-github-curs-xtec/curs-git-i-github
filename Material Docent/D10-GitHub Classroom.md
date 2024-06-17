@@ -6,7 +6,7 @@ Posteriorment, podem crear GitHub Classrooms associats a una organització cread
 Per al present curs de formació he donat d'alta el perfil organitzatiu: 
 [Formació Git i GitHub](https://github.com/git-github-curs-xtec)
 
-# GitHub Classroom?
+# GitHub Classroom
 GitHub Classroom ens permet **assignar tasques** _(individuals o grupals)_ a l'alumnat d'un Google Classroom automàticament.
 
 Les entregues es fan a través del GitHub Classroom i es poden sincronitzar les notes amb el Google Classroom.

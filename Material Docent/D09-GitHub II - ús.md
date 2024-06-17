@@ -65,12 +65,12 @@ Ara ja tenim un repositori remot clonat com a repositori local al nostre ordinad
 	
 
 4. Pugem els canvis al repositori remot: `git push`
-
+	![](img/Pasted%20image%2020240617190034.png)
 
 ## Crear un repo remot nou
 Des de la plataforma GitHub podem crear espais de repositoris remots nous i aleshores linkar-los amb un repositori local o afegir-hi contingut manualment des del web.
 
-1. Crear repo nou des del portal de GitHub:
+Crear repo nou des del portal de GitHub:
 	![](img/Pasted%20image%2020240616173251.png)
 
 >[!IMPORTANT]
@@ -80,27 +80,30 @@ Des de la plataforma GitHub podem crear espais de repositoris remots nous i ales
 >Afegir-hi un **README.md** és bona pràctica però hem de saber que aleshores ja ens crea un primer commit des del remot. No és un problema si sabem què està passant, però ens pot portar mal de caps per sincronitzar-ho amb un repositori local si aquest ja conté commits.
 >La **llicència** és opcional, però sovint s'usa la llicència *MIT* o *GNU* per denotar que el codi que conté és de lliure ús i distribució. Notar que també ens inicia l'històric de commits igual que al crear el README.md ja que, tant un com l'altre, ens afegeix contingut al repositori remot.
 
-	Un cop creat el repositori remot, si hem escollit NO crear README.md ni afegir-hi llicència *(ho podem fer després)*, veurem una pàgina com aquesta:
-	![](img/Pasted%20image%2020240616173906.png)
+Un cop creat el repositori remot, si hem escollit NO crear README.md ni afegir-hi llicència *(ho podem fer després)*, veurem una pàgina com aquesta:
+![](img/Pasted%20image%2020240616173906.png)
 
-2. Ara podem copiar la URL del repositori remot que ens ha generat; en aquest cas: https://github.com/git-github-curs-xtec/curs-git-i-github.git i afegir-la com a repositori remot en el nostre repositori local `git remote add origin url-repo-remot`:
+Ara podem copiar la URL del repositori remot que ens ha generat; en aquest cas: https://github.com/git-github-curs-xtec/curs-git-i-github.git i afegir-la com a repositori remot en el nostre repositori local `git remote add origin url-repo-remot`:
 
-	![](img/Pasted%20image%2020240616175231.png)
+![](img/Pasted%20image%2020240616175231.png)
 
-3. Establir el nom amb el qual ens referirem al repo remot `origin` i la branca que volem sincronitzar amb la branca activa del local `main` i en pujarem el contingut.
+Establir el nom amb el qual ens referirem al repo remot `origin` i la branca que volem sincronitzar amb la branca activa del local `main` i en pujarem el contingut.
 
-	Usarem la comanda: `git push -u origin main`
+Usarem la comanda: `git push -u origin main`
+![](img/Pasted%20image%2020240616175722.png)
 
-	![](img/Pasted%20image%2020240616175722.png)
-
-4. Comprovar el contingut dins del repo remot:
+Comprovar el contingut dins del repo remot:
 	![](img/Pasted%20image%2020240616175804.png)
 
 ## Fer un fork d'un repo remot
 L'acció de **fork** serveix per a crear un nou repositori remot clonant un repositori remot actual.
 
-Això ens serveix per tal d'importar el codi del repositori públic d'un altra persona i incorporar-lo en el nostre haver de repositoris remots del nostre perfil. A més a més, podrem modificar la nostra còpia del codi sense afectar al repositori remot original.
+Això ens serveix per tal d'importar el codi del repositori públic d'un altra persona i incorporar-ne una còpia en el seu estat actual en el nostre haver de repositoris remots del nostre perfil. A més a més, podrem modificar la nostra còpia del codi sense afectar al repositori remot original.
 
 L'acció de **fork** es troba disponible a través de GitHub dins de les opcions d'un repositori:
 
 ![](img/Pasted%20image%2020240616191847.png)
+
+>[!TIP]
+>Un repositori que ha estat creat a partir d'un fork, s'enrecorda sempre del seu repositori d'origen i, si en el futur aquest té actualitzacions, ens proposarà si volem actualitzar també la nostra còpia important-ne els canvis.
+
