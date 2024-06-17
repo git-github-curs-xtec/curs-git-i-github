@@ -210,13 +210,20 @@ Estant encara dins de la branca `feature/nova-funcionalitat`, usan `git log --on
 >1. En quin commit es troba cada branca del repositori. Ara mateix les branques `origin/main` *(en parlem a sota)*, `nova-branca` i `main` es troben desactualitzades en un commit anterior (98900f3) al més recent (5338dbd) on sí que hi trobem les branques que hem estat modificant a l'exemple.
 >2. També podem veure a quin commit es troba el repositori en la versió remota `origin/main` *(ja en parlarem quan veiem GitHub)*.
 >3. També podem veure la paraula clau `HEAD` que ens indica sobre quina branca estem treballant o altrament dit, quina és la branca activa.
+
 ### Provoquem un conflicte al fusionar a la branca main
-1. Ens mourem a la branca principal del projecte: `main` i allà modificarem el mateix fitxer missatge.txt i el confirmarem.	![](img/Pasted-image-20240610125345.png)
-2. Posteriorment, intentarem fusionar la branca `feature/nova-funcionalitat` i portar el seu codi cap a la branca `main` i ens trobarem amb un conflicte que haurem de resoldre per a poder completar el merge.
-	![](img/Pasted-image-20240610125506.png)
-3. Si intentem eliminar la sub-branca `feature/nova-funcionalitat` no ens deixarà ja que té canvis confirmats que no han estat fusionats a cap altra branca i, per tant, es perdrien:
+Ens mourem a la branca principal del projecte: `main` i allà **modificarem** i **confirmarem** el mateix fitxer `missatge.txt` per tal de tenir **dues versions diferents del fitxer** en dues branques diferents i en l'**acció de fusionat** entre `main` i la sub-branca `nova-funcionalitat` sorgeixi un **conflicte**.
+
+També veurem que **mentre una sub-branca** té **canvis confirmats pendents** de ser **fusionats**, **no pot ser eliminada** automàticament.
+
+1. Ens mourem a la branca principal del projecte: `main`.	![](img/Pasted-image-20240610125345.png)
+2. Intentem eliminar la sub-branca `feature/nova-funcionalitat`, però no ens deixarà ja que té canvis confirmats que no han estat fusionats a cap altra branca i, per tant, es perdrien:
 	![](img/Pasted-image-20240610125607.png)
-4. Des de la branca `main`, modifiquem l'arxiu `missatge.txt`:
+3. Comprovem estat del versionat del nostre repo local des de la branca `main`:
+	![](img/Pasted-image-20240610125506.png)
+4. Comprovem estat del versionat des de la branca `nova-funcionalitat`:
+	![image](img/Pasted-image-20240610105504.png)
+5. Des de la branca `main`, modifiquem l'arxiu `missatge.txt`:
 	![](img/Pasted-image-20240610125720.png)
 5. Afegim i confirmem el fitxer `missatge.txt` amb els canvis a la branca `main`:
 	![](img/Pasted-image-20240610125817.png)
@@ -232,7 +239,7 @@ Estant encara dins de la branca `feature/nova-funcionalitat`, usan `git log --on
 	
 	El conjunt de caràcters `=======` serveix per a separar el cotingut confirmat del document a cadascuna de les dues branques.
 
-	Hem de resoldre el conflicte i, amb un editor de text, eliminar aquestes marques especials i decidir quin contingut és el correcte pel fitxer. Per exemple podem decidir quedar-nos amb només el codi del `main` o només amb el codi de `feature/nova-funcionalitat` o manualment fer un *collage* entre les dues versions.
+	Hem de **resoldre el conflicte** i, amb un **editor de text**, **eliminar** aquestes **marques especials** i **decidir quin contingut és el correcte** pel fitxer. Per exemple podem decidir quedar-nos amb només el codi del `main` o només amb el codi de `feature/nova-funcionalitat` o manualment fer un *collage* entre les dues versions.
 	
 10. Un cop fet, hem de confirmar els canvis amb un `git add missatge.txt` i `git commit -m "missatge"`. Alternativament amb un `git commit -am "missatge"`.
 	![](img/Pasted-image-20240611100443.png)
