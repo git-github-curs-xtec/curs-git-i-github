@@ -26,10 +26,11 @@ En aquesta tasca pujarem el nostre repo local a un repo remot i també farem l'a
 ---
 ## EXTRA
 Si t'ha semblat massa fàcil...:
-1. Crea branques des del repositori local i puja-les al remot
-2. Fes merge entre branques i publica els canvis al remot
-3. Provoca la generació d'algun conflicte entre el remot i el local i soluciona'l
-4. Fes un fork d'un repositori teu per fer-ne una còpia remota en el teu propi perfil. Modifica i confirma algun arxiu del teu repositori original i observa quin missatge apareix a a còpia del repositori. Pots actualitzar-lo automàticament?
+1. Afageix un arxiu README.md a l'arrel del repositori remot i usant sintaxi Markdown explica quin contingut té el repo
+2. Crea branques des del repositori local i puja-les al remot
+3. Fes merge entre branques i publica els canvis al remot
+4. Provoca la generació d'algun conflicte entre el remot i el local i soluciona'l
+5. Fes un fork d'un repositori teu per fer-ne una còpia remota en el teu propi perfil. Modifica i confirma algun arxiu del teu repositori original i observa quin missatge apareix a a còpia del repositori. Pots actualitzar-lo automàticament?
 
 
 ---
