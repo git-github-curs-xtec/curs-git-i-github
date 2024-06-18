@@ -1,4 +1,4 @@
-# TA07-Clona i gestiona un repo remot
+# TA07-Clona, crea i fork un repo remot
 
 ## Enunciat
 En aquesta tasca pujarem el nostre repo local a un repo remot i també farem l'acció inversa descarregant un repo remot a local.
@@ -18,14 +18,20 @@ En aquesta tasca pujarem el nostre repo local a un repo remot i també farem l'a
 >[!WARNING]
 >Recorda que per a poder executar `git push` i pujar del repo local al repo remot, serà necessari crear un **token** personal des del portal de GitHub. 
 
+### Tasca 3
+- Busca un repo remot públic que t'agradi.
+- **Fes-li un fork** per tal de portar-lo al teu perfil de GitHub.
+- Comprova'n el resultat un cop creat.
+
 ---
 ## EXTRA
 Si t'ha semblat massa fàcil...:
 1. Crea branques des del repositori local i puja-les al remot
 2. Fes merge entre branques i publica els canvis al remot
 3. Provoca la generació d'algun conflicte entre el remot i el local i soluciona'l
+4. Fes un fork d'un repositori teu per fer-ne una còpia remota en el teu propi perfil. Modifica i confirma algun arxiu del teu repositori original i observa quin missatge apareix a a còpia del repositori. Pots actualitzar-lo automàticament?
 
 
 ---
 ## Entrega
-1. Entrega captures de pantalla del terminal i del portal de GitHub on es vegi com has fet tot el procés per a cada tasca (ben identificades amb el teu nom. *Pex: josep-serrano-1.png*)
+1. Entrega captures de pantalla del terminal i del portal de GitHub on es vegi com has fet tot el procés per a cada tasca (ben identificades amb el teu nom. *Pex: josep-serrano-tasca1.png*)
