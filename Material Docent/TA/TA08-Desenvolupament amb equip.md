@@ -7,7 +7,7 @@ L'objectiu és el de crear un únic repositori remot on tots els integrants del 
 
 ### Tasca 1
 1. Cadascú es loguejar-nos al seu perfil de GitHub.
-2. Acceptar la tasca clicant al link: [https://classroom.github.com/a/FbY8WUzM](https://classroom.github.com/a/FbY8WUzM)
+2. Acceptar la tasca clicant al link: [url](https://classroom.github.com/a/CFBjOZsq)
 3. Ajuntar-nos a algun equip existent o crear-ne un de nou
 4. Clonar el repositori remot a un repositori local usant el terminal.
 5. Crear una nova branca amb el teu nom i apuntar cap a ella per començar-hi a treballar.
