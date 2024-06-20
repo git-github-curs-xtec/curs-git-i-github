@@ -262,7 +262,12 @@ També veurem que **mentre una sub-branca** té **canvis confirmats pendents** d
 
 ---
 
-# Consultar branques remotes
+# Consultar i descarregar branques remotes
 Si tenim el repo local sincronitzat a GitHub i volem consultar les branques remotes, podem usar la comanda `git branch -r` per veure només les branques remotes o `git branch -a` per veure-les totes.
 
 Aleshores, podem descarregar-nos una branca del remot que no tenim al local: `git checkout nom-branca-remota`
+
+# Pujar una branca local al remot
+Per pujar una branca local al remot: `git push -u origin nom-branca`
+
+Això pujarà la branca local al remot. El paràmetre `-u` siginifica *upstream* i la paraula *origin* es refereix al remot.
