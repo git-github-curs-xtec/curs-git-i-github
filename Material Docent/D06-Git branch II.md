@@ -258,3 +258,11 @@ També veurem que **mentre una sub-branca** té **canvis confirmats pendents** d
 	![](img/Pasted-image-20240611101024.png)
 	![](img/Pasted-image-20240611101134.png)
 	![](img/Pasted-image-20240611101521.png)
+
+
+---
+
+# Consultar branques remotes
+Si tenim el repo local sincronitzat a GitHub i volem consultar les branques remotes, podem usar la comanda `git branch -r` per veure només les branques remotes o `git branch -a` per veure-les totes.
+
+Aleshores, podem descarregar-nos una branca del remot que no tenim al local: `git checkout nom-branca-remota`
