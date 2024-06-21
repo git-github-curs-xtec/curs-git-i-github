@@ -1,5 +1,5 @@
 # MakeCode micro:bit
-El portal MakeCode és una eina per a desenvolupar software per a diversos tipus de hardware educacional i és propietat de Microsoft Education.
+El portal [MakeCode](https://makecode.microbit.org/) és una eina per a desenvolupar software per a diversos tipus de hardware educacional i és propietat de Microsoft Education.
 
 Incorpora simuladors per mútiples gadgets!
 
