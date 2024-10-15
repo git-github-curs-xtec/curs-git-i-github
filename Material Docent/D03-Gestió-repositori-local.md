@@ -83,7 +83,7 @@ Hi hem fet les següents modificacions de contingut dins del working directory:
 6. Hem fet un **git commit adeu.txt -m "chore: afegir adeu.txt**" i ens ha generat el commit amb codi **e040a4d**
 7. Hem creat l'arxiu **missatge.txt**  amb cert contingut textual
 8. Hem creat l'arxiu **contingut.md** amb cert contingut textual
-9. Manualment hem eliminat l'arxiu **adeu.txt*** del working directory
+9. Manualment hem eliminat l'arxiu **adeu.txt** del working directory
 10. Hem fet un **git add contingut.md**
 
 Des del terminal veiem això:
