@@ -76,7 +76,7 @@ Se li diu zona de proves ja que serveix de pas previ a fer una *captura* de l'es
 >```
 >Existeixen múltiples variants en l'ús de l'operador **commit** però possiblement el més ortodox és l'esmentat anteriorment ja que es limita a confirmar exclusiva i estrictament els canvis que hi hagi a dins de la staging area.
 >
->Tot i que en molta documentació no ho recomanen, per a confirmar els canvis pendents de confirmar de tots els arxius i carpetes que hi ha actualment a la staging area, podem usar el **punt**:
+>Tot i que en molta documentació no ho recomanen, per a confirmar els canvis pendents de confirmar de tots els arxius i carpetes amb contingut que hi ha actualment a la staging area, podem usar el **punt** (també es pot usar sense el punt per fer el mateix: confirmar tot el contingut dins de la staging area):
 >```bash
 >git commit . -m "comentari del commit"
 >```
