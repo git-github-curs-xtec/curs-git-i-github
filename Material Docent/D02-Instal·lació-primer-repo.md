@@ -72,13 +72,13 @@ Se li diu zona de proves ja que serveix de pas previ a fer una *captura* de l'es
 > [!IMPORTANT]
 > Per a passar els arxius de la *staging area* cap a la *commit area*, especificarem l'arxiu o directori que volem confirmar i especificarem un comentari explicant els canvis fets usant el **paràmetre obligatori m**:
 >```bash
->git commit -m "comentari del commit"
+>git commit arxiu -m "comentari del commit"
 >```
 >Existeixen múltiples variants en l'ús de l'operador **commit** però possiblement el més ortodox és l'esmentat anteriorment ja que es limita a confirmar exclusiva i estrictament els canvis que hi hagi a dins de la staging area.
 >
 >Tot i que en molta documentació no ho recomanen, per a confirmar els canvis pendents de confirmar de tots els arxius i carpetes que hi ha actualment a la staging area, podem usar el **punt**:
 >```bash
->git commit .
+>git commit . -m "comentari del commit"
 >```
 
 **Exemple:**
@@ -160,7 +160,7 @@ Afegidament, ens anirà bé conèixer les següents:
 >```
 
 ---
-# Referècies
+# Referències
 
 >[!TIP]
 >Finalment, podem trobar un llistat de totes les comandes principals de Git aquí:
