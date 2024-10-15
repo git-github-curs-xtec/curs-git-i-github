@@ -3,8 +3,11 @@
 ## Enunciat
 Aquesta tasca la realitzarem fora de les pantalles usant la següent plantilla:
 
-Hem creat un repo local des de zero que hem anomenat **chat-o-no-chat** i hem les següents accions per ordre:
-1. Creació de l'arxiu **chatgpt.py** amb el contingut:
+Hem creat un repo local des de zero que hem anomenat **chat-o-no-chat** i per fer-ho, hem les següents accions per ordre:
+1. Per desplegar el repositori en una carpeta nova amb el nom donat: `git init chat-o-no-chat`
+2. Per especificar qui està fent ús del repositori actualment: `git config --local user.name el-nostre-nom`
+3. Per especificar el nostre email: `git config --local user.email el-nostre-email`
+4. Creació de l'arxiu **chatgpt.py** amb el contingut:
 ``` python
 def imprimir_frase():
     for _ in range(10):
