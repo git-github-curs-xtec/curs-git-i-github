@@ -12,7 +12,6 @@ Hem creat un repo local des de zero que hem anomenat **chat-o-no-chat** i per fe
 def imprimir_frase():
     for _ in range(10):
         print("Si ens donguèssin el subsidi universal, què t'agradaria fer?")
-		Cridar la funció per veure el resultat
 ```
 2. Hem executat `git add chatgpt.py`
 3. Hem creat l'arxiu **analogic.txt** amb el seguent contingut: "Llegir ens farà lliures"
@@ -22,7 +21,6 @@ def imprimir_frase():
 def imprimir_frase():
     for _ in range(10):
         print("Si ens donguèssin el subsidi universal, què t'agradaria fer?")
-		Cridar la funció per veure el resultat
 
 imprimir_frase()
 ```
