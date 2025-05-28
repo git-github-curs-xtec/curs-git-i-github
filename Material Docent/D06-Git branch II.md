@@ -31,7 +31,7 @@ main
  └── release/1.0.0
 ```
 
-## Funsionar branques
+## Fusionar branques
 Quan el desenvolupament d'una branca ha acabat o conté ja una part important de codi estable que vol ser incorporat a la branca d'un nivell superior (per exemple pujar el codi de `bugfix/login-error/fix-form` cap a `bugfix/login-error`); hem de:
 1. Dins de la branca que conté el codi que volem pujar, fer commit de tots els canvis que es vulguin pujar i assegurar-nos de que tot funciona correctament. En el cas de l'exemple, a la branca  `bugfix/login-error/fix-form`
 2. Canviar a la branca de destí. En el cas de l'exemple anterior: `git switch bugfix/login-error`
@@ -241,7 +241,9 @@ També veurem que **mentre una sub-branca** té **canvis confirmats pendents** d
 
 	Hem de **resoldre el conflicte** i, amb un **editor de text**, **eliminar** aquestes **marques especials** i **decidir quin contingut és el correcte** pel fitxer. Per exemple podem decidir quedar-nos amb només el codi del `main` o només amb el codi de `feature/nova-funcionalitat` o manualment fer un *collage* entre les dues versions.
 	
-10. Un cop fet, hem de confirmar els canvis amb un `git add missatge.txt` i `git commit -m "missatge"`. Alternativament amb un `git commit -am "missatge"`.
+10. Un cop fet, hem de confirmar els canvis amb un `git add missatge.txt` i `git commit -m "missatge"`.
+Alternativament amb un `git commit -am "missatge"`.
+
 	![](img/Pasted-image-20240611100443.png)
 
 	![](img/Pasted-image-20240611100459.png)
@@ -249,6 +251,9 @@ També veurem que **mentre una sub-branca** té **canvis confirmats pendents** d
 	![](img/Pasted-image-20240611100520.png)
 
 	![](img/Pasted-image-20240611100609.png)
+
+>[!NOTE]
+>Quan tenim un merge a mitges degut a un conflicte, primer l'hem de resoldre i després de fer-ne un add i commit, és possible que necessitem executar la comanda `git merge --continue`
 
 >[!IMPORTANT]
 >Fixe'm nos que durant la fase de resolució de conflictes del `git metge` ha provocat que ara el repositori estigui apuntant a un estat temporal: <span style="color: royalblue;">(main|MERGING)</span>
@@ -258,7 +263,6 @@ També veurem que **mentre una sub-branca** té **canvis confirmats pendents** d
 	![](img/Pasted-image-20240611101024.png)
 	![](img/Pasted-image-20240611101134.png)
 	![](img/Pasted-image-20240611101521.png)
-
 
 ---
 
