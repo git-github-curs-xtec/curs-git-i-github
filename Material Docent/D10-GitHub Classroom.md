@@ -18,7 +18,7 @@ Les entregues es fan a través del GitHub Classroom i es poden sincronitzar les 
 >[!WARNING]
 >Si se sel·lecciona una data d'entrega, ja crea un repo automàticament.
 
-- Classe del curs de [Formació de Git i GitHub](https://classroom.github.com/classrooms/160751103-github-classroom-curs-xtec)
+- Classe del curs de [Formació de Git i GitHub](https://classroom.github.com/classrooms/158457295-curs-git-github-24-25)
 
 Es **sincronitza automàticament amb Google Classroom** cosa que permet:
 1. **Importar l'alumnat** d'un **Google Classroom**
