@@ -7,7 +7,7 @@ L'objectiu és el de crear un únic repositori remot on tots els integrants del 
 
 ### Tasca 1
 1. Cadascú es loguejar-nos al seu perfil de GitHub.
-2. Acceptar la tasca clicant al link: [url](https://classroom.github.com/a/CFBjOZsq)
+2. Acceptar la tasca clicant al link que trobarem en aquesta mateixa tasca del **Google Classroom**
 3. Ajuntar-nos a algun equip existent o crear-ne un de nou
 4. Clonar el repositori remot a un repositori local usant el terminal.
 5. Crear una nova branca amb el teu nom i apuntar cap a ella per començar-hi a treballar.
@@ -23,7 +23,7 @@ L'objectiu és el de crear un únic repositori remot on tots els integrants del 
 6. Pujarem els canvis al repositori remot
 
 >[!WARNING]
->Recorda que per a poder executar `git push` i pujar del repo local al repo remot, serà necessari crear un **token** personal des del portal de GitHub. 
+>Recorda que per a poder executar `git push` i pujar del repo local al repo remot, és possible que sigui necessari crear un **token** personal des del portal de GitHub/Settings/Developer Tools.
 
 ---
 ## EXTRA
